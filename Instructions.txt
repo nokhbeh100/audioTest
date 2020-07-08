@@ -1,0 +1,17 @@
+Audio signal processing test:
+Write a code in python that can distinguish between the following audios:
+
+1. special signal
+2. silence
+3. person talking
+
+Each audio should be segmented into these three possible sections. If the special signal is a DTMF signal, the phone number should be extracted.
+The output should look like the following example:
+
+mode, start, end, phone number/type of signal
+special, 0, 1.2,
+talking, 1.2, 3.1,
+silence, 3.1, 4.2,
+special, 4.2, 5, 3231
+
+
